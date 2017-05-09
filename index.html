@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <h1>Shopping Cart</h1>
+    <script src="js/jscode.js"></script>
+</head>
+
+<body>
+    <table border=1>
+        <tr>
+            <th>Item</th>
+            <th><button onclick="AddToCart(countPop++)">Popcorn</button></th>
+            <th><button onclick="AddToCart(countEgg++)">Eggs</button></th>
+            <th><button onclick="AddToCart(countBeer++)">Beer</button></th>
+            <th><button onclick="AddToCart(countSoap++)">Soap</button></th>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td>$3.25</td>
+            <td>$2.5</td>
+            <td>$11</td>
+            <td>$5.75</td>
+        </tr>
+        </tr>
+        <tr>
+            <td>Quantity Added</td>
+            <td><span id="displayCountPop">0</span></td>
+            <td><span id="displayCountEgg">0</span></td>
+            <td><span id="displayCountBeer">0</span></td>
+            <td><span id="displayCountSoap">0</span></td>
+        </tr>
+        <tr>
+            <td>Total Cost of Items</td>
+            <td>$<span id="Pop">0</span></td>
+            <td>$<span id="Egg">0</span></td>
+            <td>$<span id="Beer">0</span></td>
+            <td>$<span id="Soap">0</span></td>
+        </tr>
+        <tr>
+            <td>Checkout Total: </td>
+            <td>$<span id="Total">0</span></td>
+        </tr>
+    </table>
+    </br>
+
+</body>
+
+</html>
